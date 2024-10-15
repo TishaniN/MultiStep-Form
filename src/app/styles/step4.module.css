@@ -1,0 +1,129 @@
+.container {
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: black;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .reviewSection {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .reviewSection p {
+    margin: 10px 0;
+  }
+  
+  .signSection {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+    color: #333;
+  }
+  
+  .inputRow {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 1;
+  }
+  
+  .notice {
+    font-size: 12px;
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .formNavigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .backBtn{
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease;
+    outline: none;
+    background-color: white; 
+    border: 2px solid #ff6600; 
+    color: #ff6600; 
+  }
+  
+  .submitBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease;
+    background-color: #ff6600; /* Orange background */
+    color: white; /* White text */
+    border: none;
+  }
+  
+  .errorMessage{
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .spn{
+    color: red;
+  }
+
+  .navigationContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .requiredNotice {
+    font-size: 12px;
+    color: black;
+  }
+ 
+  .buttonContainer {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .back-button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .next-button {
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

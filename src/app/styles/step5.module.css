@@ -1,0 +1,84 @@
+.container {
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: center;
+  }
+  
+  .progress {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .active {
+    background-color: purple;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .message {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .link {
+    color: #e67e22;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .privacyNotice {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 40px;
+    text-align: left;
+    text-decoration: underline;
+  }
+  
+  .privacyNotice strong {
+    color: black;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .homeBtn {
+    padding: 10px 20px;
+    background-color: #6c3483;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .homeBtn:hover {
+    background-color: #5a2873;
+  }
+  
+  .printBtn {
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .printBtn:hover {
+    background-color: #e67e22;
+  }
+  

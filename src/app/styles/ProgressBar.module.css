@@ -1,0 +1,36 @@
+.progressBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #5a2b81; /* Default circle color (purple) */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .circle.active {
+    background-color: orange; /* Active circle color */
+  }
+  
+  .line {
+    width: 110px; /* Adjust the length of the connecting line */
+    height: 4px;
+    background-color: #5a2b81; /* Default line color (purple) */
+  }
+  
+  .line.active {
+    background-color: orange; /* Active line color */
+  }
+  
